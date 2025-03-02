@@ -1,0 +1,5 @@
+<img 
+    src="/images/logo.svg"  // Caminho da logo
+    alt="Logo" 
+    className="h-12 w-auto lg:h-16"
+/>
