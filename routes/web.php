@@ -46,7 +46,7 @@ Route::get('/alunos', [AlunoController::class, 'index'])->name('alunos.index');
 Route::get('/CadastrarTurmas', function() {
     $alunos = Aluno::all();
     $turmas = Turma::all();
-    return Inertia::render('CadastrarTurmas', compact('alunos', 'turmas'));  // Corrigir para Inertia
+    return Inertia::render('CadastrarTurmas', compact('alunos', 'turmas'));  
 })->name('turmas.create');
 
 Route::post('/Turmas', [TurmaController::class,'Turmas_Store'])->name('turmas.store');
