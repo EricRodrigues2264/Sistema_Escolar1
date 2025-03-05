@@ -31,11 +31,12 @@ require __DIR__.'/auth.php';
 
 //Responsavel por redirecionar o Cadastro de Alunos.
 Route::get('/CadastrarAlunos', function(){
-
     $alunos1 = Aluno::all();
     $turmas1 = Turma::all();
-    return Inertia::render('Cadastrar/Index');
+    
+    return Inertia::render('Cadastrar/Index', ['turmas' => $turmas1]);
 })->name('alunos.create');
+
 
 Route::post('/alunos', [AlunoController::class, 'store'])->name('alunos.store');
 

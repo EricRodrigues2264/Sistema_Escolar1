@@ -83,7 +83,7 @@ export default function Welcome({ auth, laravelVersion, phpVersion }) {
                                         />
                                         
                                         <img
-                                            src="https://files.oaiusercontent.com/file-C35m9MmewfNdVUc4T6vBXM?se=2025-03-01T19%3A29%3A29Z&sp=r&sv=2024-08-04&sr=b&rscc=max-age%3D604800%2C%20immutable%2C%20private&rscd=attachment%3B%20filename%3D9dbc0602-1139-494d-a31c-e56d5df59e8f.webp&sig=xSSQcBU55E95f87PLe%2BzUv4x6hQGtbl9HBaHQTYcrwI%3D"
+                                            src="https://files.oaiusercontent.com/file-HbPtMgrdytvVgfBw6Mi4tL?se=2025-03-05T17%3A39%3A07Z&sp=r&sv=2024-08-04&sr=b&rscc=max-age%3D604800%2C%20immutable%2C%20private&rscd=attachment%3B%20filename%3D95fb0b8d-8b61-4934-bc7e-8c6324cb0866.webp&sig=Ad7g2HSG9HcUV/Jou56WiGV0%2BSF4QjXHi9PzyUE87B8%3D"
                                             alt="Imagem de um Professor explicando a materia"
                                             className="hidden aspect-video h-full w-full flex-1 rounded-[10px] object-cover object-top drop-shadow-[0px_4px_34px_rgba(0,0,0,0.25)] dark:block"
                                         />
