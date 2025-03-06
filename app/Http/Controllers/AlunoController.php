@@ -33,7 +33,7 @@ class AlunoController extends Controller
         $aluno->turmas()->attach($request->turma_id);
 
         // Redirecionar para a página de alunos
-        return redirect()->route('alunos.store');
+        return Inertia::location(route('alunos.index'));
     }
 
     public function index(): Response

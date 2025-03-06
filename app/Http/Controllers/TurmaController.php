@@ -21,7 +21,7 @@ class TurmaController extends Controller
             'Descrição' => $request->Descrição
         ]);
 
-        return redirect()->route('turmas.index');
+        return Inertia::location(route('turmas.index'));
     }
 
     // Em TurmaController
